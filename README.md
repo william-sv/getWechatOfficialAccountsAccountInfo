@@ -20,5 +20,3 @@ a chrome extension，get wechat official accounts nickname、avatar、id and biz
 2. 打开 https://weixin.sogou.com/ 搜索该公众号
 2. 打开该公众号介绍页面，如 http://mp.weixin.qq.com/profile?src=3&timestamp=1578712010&ver=1&signature=Ad0g2g4EzILhhLN5*BqEKutH-VhgnHOyII8zCKm3fO*cC3QMiypP1eW6-4YWhBsVMNrwVzel0WyIvRRqE8Fcbg==
 3. 点击该扩展 icon 即可显示相应的信息
-
-![demo](https://github.com/william-sv/getWechatOfficialAccountsAccountInfo/blob/master/img/demo.png)
