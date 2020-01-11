@@ -1,0 +1,39 @@
+{
+  "manifest_version": 2,
+  "name": "获取微信公众号账号信息",
+  "version": "1.0.0",
+  "description": "获取微信公众号账号信息的Chrome扩展，可获取微信公众号的昵称、账号、BIZ、头像",
+  "icons": {
+    "128": "img/icon.png"
+  },
+  "browser_action": {
+    "default_icon": "img/icon.png",
+    "default_title": "获取微信公众号账号信息",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": [
+      "js/background_script.js"
+    ],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://mp.weixin.qq.com/*",
+        "http://mp.weixin.qq.com/*"
+      ],
+      "js": [
+        "js/content_script.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+  "web_accessible_resources": [
+    "js/inject_script.js"
+  ]
+}

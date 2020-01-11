@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>获取微信公众号账号信息</title>
+  <style>
+    .content-wrap {
+      width: 250px;
+      height: 200px;
+    }
+
+    .page-title {
+      text-align: center;
+      font-size: 17px;
+    }
+
+    #item-nickname_data,
+    #item-id_data,
+    #item-biz_data {
+      display: inline-block;
+      color: red;
+      font-size: 16px;
+    }
+
+    .item-nickname,
+    .item-id,
+    .item-biz,
+    .item-avatar_url {
+      margin-top: 10px;
+    }
+
+    #item-avatar_url_data {
+      word-wrap: break-word;
+      word-break: normal;
+      color: red;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="content-wrap">
+    <div class="page-title">
+      获取微信公众号账号信息
+    </div>
+    <div class="content-items">
+      <div class="item-nickname">
+        微信公众号昵称：
+        <div id="item-nickname_data"></div>
+      </div>
+      <div class="item-id">
+        微信公众号ID：
+        <div id="item-id_data"></div>
+      </div>
+      <div class="item-biz">
+        微信公众号BIZ：
+        <div id="item-biz_data"></div>
+      </div>
+      <div class="item-avatar_url">
+        微信公众号头像地址：
+        <div id="item-avatar_url_data"></div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="js/popup_script.js"></script>
+</body>
+</html>
