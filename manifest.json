@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "获取微信公众号账号信息",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "获取微信公众号账号信息的Chrome扩展，可获取微信公众号的昵称、账号、BIZ、头像",
   "icons": {
     "128": "img/icon.png"

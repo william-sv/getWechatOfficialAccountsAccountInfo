@@ -42,7 +42,6 @@ getWeixinBiz().then(function (value) {
   }, function (response) {
     console.log('sendMessage ' + response);
   });
-  
 })
 
 //向页面注入inject_script
